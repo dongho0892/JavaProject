@@ -1,0 +1,18 @@
+CRUD 작업을 수행하기 위한 프로그램 구현하기
+
+
+1. 에러 : ORA-12505 문제 해결하기 ---------------------------------------------
+
+driver properties 설정 문제
+
+책에서는
+jdbc:oracle:thin:@localhost:1521:orcl 로 입력하라고 되어있었는데, 
+ping test failed : ORA-12505 에러가 발생함.
+
+그래서 
+jdbc:oracle:thin:@localhost:1521:xe 로 수정하고, 
+
+OracleConnectionTest.java 에서 orcl을 xe로 수정함.
+
+
+--------------------------------------------------------------------------------
