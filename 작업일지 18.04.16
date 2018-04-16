@@ -16,3 +16,16 @@ OracleConnectionTest.java 에서 orcl을 xe로 수정함.
 
 
 --------------------------------------------------------------------------------
+
+2. 이클립스 단축키 추가하기
+
+ - syso : System.out.println();
+ - sysp : System.out.print();   => 추가대상
+
+
+ - preferences -> java -> editor -> templetes
+
+sysp : System.out.print(${word_selection}${});${cursor}
+
+--------------------------------------------------------------------------------
+3. 
